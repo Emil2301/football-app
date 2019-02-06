@@ -11,7 +11,7 @@ class App extends Component {
   }  
   handleButtonClick = e => {
     e.preventDefault();
-    const API = 'http://api.football-data.org/v2/competitions/2002/teams'
+    const API = 'https://api.football-data.org/v2/competitions/2002/teams'
 
     fetch(API, {
       headers:{
