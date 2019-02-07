@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
 import Form from './Form'
 import Football from './Football'
+import './DisplayLogo.css'
 
-class App extends Component {
+class DisplayLogo extends Component {
   state = {
     error: '', 
     name: '', 
     image: ''
-  }  
+  } 
   handleButtonClick = e => {
     e.preventDefault();
     const API = 'https://api.football-data.org/v2/competitions/2002/teams'
@@ -56,4 +56,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default DisplayLogo;

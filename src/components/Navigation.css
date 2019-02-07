@@ -1,0 +1,12 @@
+div {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.selected {
+    color: green;
+}
