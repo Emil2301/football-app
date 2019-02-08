@@ -10,9 +10,8 @@ const Navigation = () => {
                 <NavLink exact to="/" activeClassName="selected" className="link">Display Logo</NavLink>
             </button>
             <button>
-                <NavLink to="/when" activeClassName="selected" className="link">When He Plays</NavLink>
-            </button>
-            
+                <NavLink to="/when" activeClassName="selected" className="link">When Does He Play?</NavLink>
+            </button>            
         </div>
      );
 }
