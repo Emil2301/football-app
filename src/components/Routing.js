@@ -8,7 +8,7 @@ import WhenHePlays from './WhenHePlays'
 
 const Routing = () => {
   return ( 
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <>
         <Navigation />
         <Switch>
