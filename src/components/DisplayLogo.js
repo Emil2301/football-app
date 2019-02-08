@@ -10,7 +10,7 @@ class DisplayLogo extends Component {
     image: ''
   } 
   handleButtonClick = e => {
-    e.preventDefault();
+    //download the data of german Bundesliga teams
     const API = 'https://api.football-data.org/v2/competitions/2002/teams'
 
     fetch(API, {
