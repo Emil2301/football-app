@@ -10,13 +10,13 @@
 * First feature - "Display Logo":
 * After clicking on the button, on the screen appears the name and logo of a random Bundesliga football club. It uses API: https://www.football-data.org/ to download the data and displays it using GitHub Pages.
 * Second feature - "When Does He Play?"
-* On the screen appears the select option form. Afteer choosing one player from this list, you will see when (date and time) will this football player play his next game, which his team is and what is the opponent.
+* On the screen appears the select option form. After choosing one player from this list, you will see when (date and time) this footballer plays his next game and the names of both teams.
 * Link to the website: https://emil2301.github.io/football-app/
-* I made this app, because every week I check on the Internet when my favourite footballers play their matches. Now I can use these app and I have everything found for me. I made also the logo drawing feauture, because I wanted to use React Router to navigate between two Links.
+* I made this app, because every week I check on the Internet when my favourite footballers play their matches. Now I can use this app and I have everything found for me. I made also the logo drawing feauture, because I wanted to use React Router to navigate between two Links.
 
 ## Features
-* Draw a logo of Bundesliga club
-* Check when famous polish football players will play another matches
+* Draws a logo of Bundesliga club
+* Checks when famous polish footballers play another matches
 	
 ## Technologies
 Project is created with:
