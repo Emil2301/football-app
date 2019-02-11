@@ -1,0 +1,16 @@
+/* div {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 4vw;
+} */
+div {
+    margin: 10px 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 350px) {
+    div {
+        font-size: 4.5vw;
+    }
+}

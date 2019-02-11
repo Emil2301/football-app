@@ -1,4 +1,5 @@
 import React from 'react';
+import './NextMatch.css'
 
 const NextMatch = props => {
     const date = new Date(props.date).toLocaleString();
@@ -6,11 +7,11 @@ const NextMatch = props => {
         <div>
             {
                 (props.value && !props.error) ? (
-                <>
-                    <h3>Next game:</h3>
-                    <h4>{props.homeTeam} vs. {props.awayTeam}</h4>
-                    <h4>Date: {date}</h4>
-                </>
+                <div className="match">
+                    <div>Next game:</div>
+                    <div>{props.homeTeam} vs. {props.awayTeam}</div>
+                    <div>Date: {date}</div>
+                </div>
             ) : <div>
                     <h3>
                         {props.error ? String(props.error)+ ', because this API lets only 10 calls per minute ' : null}
