@@ -1,24 +1,23 @@
 import React from 'react';
-//all commented code is for displaying images of homeTeam and awayTeam, it's commented because I need to improve it
+
 const NextMatch = props => {
     const date = new Date(props.date).toLocaleString();
     return ( 
         <div>
-            {props.value ? (
+            {
+                (props.value && !props.error) ? (
                 <>
                     <h3>Next game:</h3>
                     <h4>{props.homeTeam} vs. {props.awayTeam}</h4>
                     <h4>Date: {date}</h4>
-                    {/* <img src={`${props.homeTeamLogo}`} alt=""/>
-                    <img src={`${props.awayTeamLogo}`} alt=""/> */}
                 </>
-            ) : ''}
-        </div>
-        // <div>
-        //     <h3>Next game:</h3>
-        //     <h4>{props.homeTeam} vs. {props.awayTeam}</h4>
-        //     <h4>Date: {props.date}</h4>
-        // </div>
+            ) : <div>
+                    <h3>
+                        {props.error ? String(props.error)+ ', because this API lets only 10 calls per minute ' : null}
+                    </h3>
+                </div> 
+            }             
+        </div>        
      );
 }
  
