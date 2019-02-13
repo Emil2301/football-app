@@ -3,6 +3,7 @@ import './Football.css';
 
 //function component for displaying data
 const Football = props => {
+    // checking if the error is caused with too many API calls
     if (props.error.stack === 'TypeError: Failed to fetch') {
         props.error.stack = 'This API lets only 10 calls per minute. Try again after a moment.';
     } else if(props.error) {
