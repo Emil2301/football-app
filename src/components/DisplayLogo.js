@@ -17,7 +17,7 @@ class DisplayLogo extends Component {
     error: '',
     name: '',
     image: '',
-    loading: false
+    loading: true
   }
   handleButtonClick = e => {
     //download the data of german Bundesliga teams
