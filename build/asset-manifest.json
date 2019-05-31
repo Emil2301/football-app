@@ -1,13 +1,13 @@
 {
-  "main.css": "/football-app/static/css/main.c267d73b.chunk.css",
-  "main.js": "/football-app/static/js/main.0c187050.chunk.js",
-  "main.js.map": "/football-app/static/js/main.0c187050.chunk.js.map",
+  "main.css": "/football-app/static/css/main.e3db7b1f.chunk.css",
+  "main.js": "/football-app/static/js/main.ebcdd091.chunk.js",
+  "main.js.map": "/football-app/static/js/main.ebcdd091.chunk.js.map",
   "static/js/1.89c4bcd6.chunk.js": "/football-app/static/js/1.89c4bcd6.chunk.js",
   "static/js/1.89c4bcd6.chunk.js.map": "/football-app/static/js/1.89c4bcd6.chunk.js.map",
   "runtime~main.js": "/football-app/static/js/runtime~main.c06de619.js",
   "runtime~main.js.map": "/football-app/static/js/runtime~main.c06de619.js.map",
-  "static/css/main.c267d73b.chunk.css.map": "/football-app/static/css/main.c267d73b.chunk.css.map",
+  "static/css/main.e3db7b1f.chunk.css.map": "/football-app/static/css/main.e3db7b1f.chunk.css.map",
   "index.html": "/football-app/index.html",
-  "precache-manifest.c797aaaa6428cd90fb3c387b1ce6f66e.js": "/football-app/precache-manifest.c797aaaa6428cd90fb3c387b1ce6f66e.js",
+  "precache-manifest.55cf758ebe8ef15f6b1def9b466a80ac.js": "/football-app/precache-manifest.55cf758ebe8ef15f6b1def9b466a80ac.js",
   "service-worker.js": "/football-app/service-worker.js"
 }
