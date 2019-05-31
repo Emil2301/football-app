@@ -49,7 +49,8 @@ class DisplayLogo extends Component {
       })
       .catch(err => {
         this.setState({
-          error: err
+          error: err,
+          loading: false
         })
       })
   }

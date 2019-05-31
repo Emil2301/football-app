@@ -62,7 +62,8 @@ class WhenHePlays extends Component {
             .catch(err => {
                 console.log(err)
                 this.setState({
-                    error: err
+                    error: err,
+                    loading: false
                 })
             })
     }
